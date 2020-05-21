@@ -1,7 +1,8 @@
 .card {
-  padding: 20px;
   background: #eee;
-  box-shadow: 0 6px 12px #0005;
+  box-shadow: 0 6px 12px #607466;
+  border-radius: 25px;
+  padding-bottom: 10px;
 }
 
 .card__container {
@@ -9,4 +10,40 @@
   gap: 20px;
   overflow: scroll;
   padding: 20px;
+  color: var(--text-color);
+}
+
+.card__question {
+  padding: 20px;
+  margin-top: 0;
+  background-color: var(--primary);
+  border-radius: 25px;
+}
+
+.card__button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card__button--style {
+  color: whitesmoke;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card__tags {
+  padding: 0;
+  text-align: center;
+  margin: 0px;
+}
+
+.card__tags li {
+  display: inline-block;
+  border: 2px solid var(--secondary);
+  margin: 3px;
+  padding: 7px;
+  border-radius: 25px;
+  font-size: 0.8rem;
 }
