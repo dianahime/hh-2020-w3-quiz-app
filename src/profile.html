@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Profile</header>
+    <main class="card__container">
+      <section class="profile__photo">
+        <img src="img/5df126b679d7570ad2044f3e.jpeg" alt="happy dog" />
+        <h2>Hanna White</h2>
+      </section>
+      <section class="profile__about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        laboriosam ad doloribus in numquam debitis labore delectus, quos harum,
+        quaerat nihil veritatis illo cum reiciendis totam fugiat maxime! Qui,
+        quae!
+      </section>
+      <section class="profile__skills">
+        <ul class="skill__tags">
+          <li>Lorem</li>
+          <li>Officia</li>
+          <li>Explica!</li>
+          <li>Loki</li>
+        </ul>
+      </section>
 
-</body>
+      <div class="card__button">
+        <button class="logout-button">Log out</button>
+      </div>
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="img/home.svg" alt="home"
+      /></a>
+      <a class="navigation__link" href="/bookmarks.html"
+        ><img src="img/heart .svg" alt="bookmark"
+      /></a>
+      <a class="navigation__link" href="/create.html"
+        ><img src="img/edit.svg" alt="create"
+      /></a>
+      <a class="navigation__link" href="/"
+        ><img src="img/profile active.svg" alt="profile"
+      /></a>
+    </nav>
+  </body>
 </html>

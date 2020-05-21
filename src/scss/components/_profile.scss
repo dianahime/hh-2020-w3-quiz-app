@@ -1,0 +1,36 @@
+.profile__photo {
+  h2 {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+  }
+}
+
+.profile__photo img {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.logout-button {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+.skill__tags {
+  justify-content: center;
+  padding: 0;
+}
+.skill__tags li {
+  display: inline-block;
+  border: 3px solid var(--secondary);
+  margin: 3px;
+  padding: 7px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+}
