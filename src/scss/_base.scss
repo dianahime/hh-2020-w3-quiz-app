@@ -22,3 +22,12 @@ textarea {
 img {
   max-width: 40px;
 }
+
+.button {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+}

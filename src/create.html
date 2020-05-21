@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Create</header>
+    <main class="card__container">
+      <section>
+        <h3>Add a qusetion:</h3>
+        <textarea name="question" id="" cols="40" rows="5"></textarea>
+      </section>
+      <section>
+        <h3>Add the answer:</h3>
+        <textarea name="question" id="" cols="40" rows="8"></textarea>
+      </section>
+      <section>
+        <h3>Add tags (diveded by a comma):</h3>
+        <textarea name="question" id="" cols="40" rows="2"></textarea>
+      </section>
 
-</body>
+      <div class="card__button">
+        <button class="button">Submit</button>
+      </div>
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="img/home.svg" alt="home"
+      /></a>
+      <a class="navigation__link" href="/bookmarks.html"
+        ><img src="img/heart .svg" alt="bookmark"
+      /></a>
+      <a class="navigation__link" href="/"
+        ><img src="img/edit active.svg" alt="create"
+      /></a>
+      <a class="navigation__link" href="/profile.html"
+        ><img src="img/profile.svg" alt="profile"
+      /></a>
+    </nav>
+  </body>
 </html>
