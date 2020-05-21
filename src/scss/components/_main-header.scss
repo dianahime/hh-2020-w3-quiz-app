@@ -2,5 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ddd;
+  color: whitesmoke;
+  font-size: 2rem;
+  /*background: rgb(136, 209, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(136, 209, 138, 1) 35%,
+    rgba(98, 144, 195, 1) 100%
+  );*/
+  background-color: var(--primary);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 8px 6px -6px #607466;
 }
